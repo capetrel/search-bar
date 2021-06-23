@@ -2,7 +2,8 @@
 $dom = new DOMDocument();
 $count = 0;
 $data_file = glob('data.php');
-$files = array_merge($data_file);
+$data2_file = glob('data-2.php');
+$files = array_merge($data_file, $data2_file);
 $results = [];
 $data = [];
 
@@ -23,27 +24,25 @@ foreach ($files as $filename) {
     foreach ($elements as $el) {
         $trimmed_str = trim($el->nodeValue);
         $sanitized_str = preg_replace('/[\s\t\n]{2,}/', ' ', $trimmed_str);
-        $sanitized_str = mb_convert_encoding($sanitized_str, 'UTF-8', 'UTF-8');
-        $converted_str = iconv( "UTF-8", "ISO-8859-1//IGNORE", $sanitized_str);
-        $results[] = ["page_id" => $count, "values" => $converted_str, 'link' => $id . '.php'];
+        $results[] = ["page_id" => $count, "values" => $sanitized_str, 'link' => $id . '.php'];
     }
     $h1 = $page_path->query("//h1[@class='h1']", $dom);
     foreach($h1 as $k => $h1_item){
         $trimmed_title = trim($h1_item->textContent);
         $sanitized_title = preg_replace('/[\s\t\n]{2,}/', ' ', $trimmed_title);
-        $sanitized_title = mb_convert_encoding($sanitized_title, 'UTF-8', 'UTF-8');
-        $converted_title = iconv( "UTF-8", "ISO-8859-1//IGNORE", $sanitized_title);
-        $results[$count]['title'] = $converted_title;
+        $results[$count]['title'] = $sanitized_title;
         $count++;
     }
+
 }
+
 try {
     $json = jsonEncodeWithThrow($results);
 }
 catch(Exception $e ) {
     echo $json = $e->getMessage() ."\n";
 }
-$d_j = json_decode($json);
-$n_j = json_encode($d_j, JSON_UNESCAPED_UNICODE );
+$escaped = json_decode($json);
+$unescaped = json_encode($escaped, JSON_UNESCAPED_UNICODE );
 ?>
-var files_content = <?php echo $n_j; ?>;
+var files_content = <?php echo $unescaped; ?>;

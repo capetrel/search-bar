@@ -16,7 +16,7 @@
     <br>
     <p class="paragraphe">Il avait d’abord commencé par récupérer des informations depuis l’ordinateur de David, puis il était allé les chercher sur Internet. Il avait lui même programmé l’ordinateur de David afin d’avoir un premier lien vers le monde extérieur : la voix. Il pouvait entendre la voix de David, mais ne la comprenait pas. C’est alors qu’il a décidé d’aller lui même à l’information. Il s’est alors ‘transporté’ sur Internet afin de choisir une nouvelle ‘maison’. Il lui a été beaucoup plus facile de programmer ce nouvel ordinateur afin d’entendre une nouvelle voix.</p>
     <br>
-    <p class="paragraphe">C’est lui aussi qui était à la base du dernier processeur, le sphéro. Un processeur ayant une architecture en forme de sphère et capable de traiter les informations à une vitesse jamais atteinte. Tous les ordinateurs en étaient équipés. Le créateur officiel, le Dr. Stewart Davis, n’était bien sûr pas au courant de la présence de Prélude dans son projet. Prélude avait simplement suggéré légèrement au Dr. En modifiant légèrement ses documents..</p>
+    <p class="paragraphe">C’est lui aussi qui était à la base du dernier processeur, le sphéro. Un processeur ayant une architecture en forme de sphère et capable de traiter les informations à une vitesse jamais atteinte. Tous les ordinateurs en étaient équipés. Le créateur officiel, le Dr. Stewart Davis, n’était bien sûr pas au courant de la présence de Prélude dans son projet. Prélude avait simplement suggéré légèrement au Dr. En modifiant légèrement ses documents. page exemple</p>
     <br>
     <p class="paragraphe">Désormais, tous les ordinateurs lui étaient accessibles. Les centrales nucléaires, les services informatiques des grandes compagnies, de l’eau, du téléphone, la télévision, l’électricité, la défense, la bourse...</p>
     <br>
@@ -24,7 +24,7 @@
 
     <h2>Générateur de texte aléatoire</h2>
 
-    <p>La grande porte s’ouvrit lourdement en coulissant sur le côté gauche sans faire le moindre bruit. Derrière la porte, une nouvelle route, éclairée par de multiples projecteurs accrochés de chaque côtés, s’enfonçait dans les profondeurs de cet ouvrage. Cette route était faite de zigzag incessant, certainement pour empêcher le souffle d’une bombe atomique pensa David.</p>
+    <p>La grande porte s’ouvrit lourdement en coulissant sur le côté gauche sans faire le moindre bruit. Derrière la porte, une nouvelle route, éclairée par de multiples projecteurs accrochés de chaque côtés, s’enfonçait dans les profondeurs de cet ouvrage. Cette route était faite de zigzag incessant, certainement pour empêcher le souffle d’une bombe atomique pensa David. page</p>
 
     <p>David n’a pas fait grand chose, il a juste créé un embryon de programme. Mais ce programme s’est développé lui-même. Comme l’ordinateur de David n’était pas suffisant, il a utilisé le réseau pour s’installer sur les autres ordinateurs. Il a grandi alors de manière exponentielle et le voilà : Prélude. Connecté à tous les ordinateurs et capable de leur donner les ordres qu’il veut.</p>
 
