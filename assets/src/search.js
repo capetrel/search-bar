@@ -40,7 +40,6 @@ if(files_content && !isEmpty(files_content)) {
             this.add(doc);
         }, this)
     })
-
     // Type de recherche : expression exacte ou mots clé
     let searchExpression = false;
 
@@ -158,15 +157,7 @@ if(files_content && !isEmpty(files_content)) {
 }
 
 function generateTitle(string) {
-    let reference = '';
-    if (string === 'index.php') {
-        reference = string;
-    } else if (string.substring(5) === 'partie') {
-        reference = string.substring(5);
-    } else {
-        reference = string.substring(2);
-    }
-    let titleElement = reference.replace(new RegExp('-', 'g'), ' ').trim();
+    let titleElement = string.replace(new RegExp('-', 'g'), ' ').trim();
     if(titleElement === 'index.php') {
         titleElement = 'accueil.php';
     }
