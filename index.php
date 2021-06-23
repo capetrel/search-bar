@@ -10,6 +10,7 @@
 <body>
 
     <div id="search">
+        <label for="txtSearch">Rechercher</label>
         <input type="search" id="txtSearch" placeholder="Recherche">
         <div class="check-container">
             <input type="checkbox" id="sentenceSearch" name="sentenceSearch">
